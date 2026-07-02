@@ -5,7 +5,7 @@
  * @returns {boolean} True if the number is prime, false otherwise.
  */
 const n=parseInt(process.argv[2]);
-function isPrime(n) {
+function isPrime(num) {
     if (num <= 1) return false;
 
     for (let i = 2; i< num; i++){
