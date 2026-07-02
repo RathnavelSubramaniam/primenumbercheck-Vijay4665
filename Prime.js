@@ -13,7 +13,7 @@ function isPrime(num) {
             return false;
         }
 }
-    return ture;
+    return true;
 }
 
 if (isPrime(n)){
